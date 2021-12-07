@@ -1,0 +1,33 @@
+{
+  "name": "notoxicdiscussions",
+  "version": "1.0.0",
+  "description": "A GitHub action that detects toxic messages in Discussions.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node test/SampleRequestPerspectiveAPI.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasbnt/NoToxicDiscussions.git"
+  },
+  "keywords": [
+    "perspective",
+    "api",
+    "toxic",
+    "github",
+    "actions"
+  ],
+  "author": "Thomas Bnt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomasbnt/NoToxicDiscussions/issues"
+  },
+  "homepage": "https://github.com/thomasbnt/NoToxicDiscussions#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "dotenv": "^10.0.0",
+    "googleapis": "^92.0.0"
+  }
+}

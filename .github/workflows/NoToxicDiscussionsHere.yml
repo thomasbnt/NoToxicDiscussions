@@ -1,0 +1,24 @@
+name: No Toxic Discussions Here
+on:
+  discussion:
+    # created type can be marked as an error BUT IS WORK. See the docs :
+    # https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows#discussion
+    types: [ created, opened, edited, answered ]
+  discussion_comment:
+    types: [ created, edited ]
+jobs:
+  CheckContent:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+        with:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            PERSPECTIVE_API_KEY: ${{ secrets.PERSPECTIVE_API_KEY }}
+      - name: Install dependencies
+        run: |
+          yarn install
+          yarn add @actions/core @actions/github
+      - name: Run the script
+        run: |
+          yarn run start
