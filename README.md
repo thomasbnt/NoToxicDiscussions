@@ -1,3 +1,11 @@
+### 😶 Disclaimer : Read that before use it
+
+For this moment, this **GitHub Actions** don't work properly like I would like. When GitHub add the possibility to add *and/or* edit comments in Discussions, i will update the project.
+
+I started this Action because I thinked  that it is a good idea to have a moderate tool in Discussions part with the toxicity of comments.
+So I did it thinking it would be feasible, but when I got to the end of the code part, I couldn't figure out how to create/edit comments. 
+
+___
 # No Toxic Discussions
 
 > A GitHub action that detects toxic messages in Discussions.
@@ -46,6 +54,9 @@ jobs:
 
 
 ## How it's work 
+
+When anyone create a new comment in a discussion or create a new discussion, the script will check if the comment is toxic. 
+If the author edit this comment, the Actions run again.
 
 ![]()
 
