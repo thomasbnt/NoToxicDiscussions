@@ -12,7 +12,7 @@ ___
 
 **No Toxic Discussions** uses **Perspective API** by *Jigsaw* from Google.
 
-[![](https://img.shields.io/badge/-Github_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/marketplace/actions/NoToxicDiscussions)
+[![](https://img.shields.io/badge/-Github_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/marketplace/actions/no-toxic-discussions)
 [![Follow me on Twitter](https://img.shields.io/twitter/follow/Thomasbnt_?color=%231DA1F2&label=Follow%20me&logo=Twitter&style=for-the-badge)](https://twitter.com/Thomasbnt_)
 [![Follow me on DEV](https://img.shields.io/badge/dev.to-%2308090A.svg?&label=Read%20me%20on&style=for-the-badge&logo=dev.to&logoColor=white&alt=devto)](https://dev.to/thomasbnt)
 
