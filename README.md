@@ -23,7 +23,7 @@ Create the `.github/workflows/NoToxicDiscussions.yml` file with the following co
 name: No Toxic Discussions Here
 on:
   discussion:
-    # created type can be marked as an error BUT IS WORK. See the docs :
+    # created type can be marked as an error BUT IT'S WORK. See the docs :
     # https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows#discussion
     types: [ created, opened, edited, answered ]
   discussion_comment:
