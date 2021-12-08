@@ -58,7 +58,9 @@ jobs:
 When anyone create a new comment in a discussion or create a new discussion, the script will check if the comment is toxic. 
 If the author edit this comment, the Actions run again.
 
-![]()
+Output workflow : 
+
+![Output workflow](https://user-images.githubusercontent.com/14293805/145136473-3fa03470-1856-404c-8b09-639e2d193b8a.png)
 
 ## Test locally 
 
