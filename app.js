@@ -51,7 +51,12 @@ async function run() {
                     //console.log(JSON.stringify(response.data, null, 2))
                     if(ScoreValue >= .9) {
                         console.log("ACTION ! ")
-                        context.octokit.discussion.createComment({body: "Hello"})
+                        
+                        /* 
+                        *  Not working. Please GitHub add this fonctionnality.
+                        *  context.octokit.discussion.createComment({body: "Hello"})
+                        * 
+                        */
                     }
 
                     return response.data.attributeScores.TOXICITY.summaryScore.value
