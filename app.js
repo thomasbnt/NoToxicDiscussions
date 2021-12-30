@@ -5,7 +5,7 @@ const {google} = require('googleapis')
 const PERSPECTIVE_DISCOVERY_URL = 'https://commentanalyzer.googleapis.com/$discovery/rest?version=v1alpha1'
 
 // TODO : core.getInput not work properly (?)
-const PERSPECTIVE_API_KEY = core.getInput('PERSPECTIVE_API_KEY') || 'AIzaSyB3tl30HXqIaJvtWRb8wM3DM_s5D33EFN4'
+const PERSPECTIVE_API_KEY = core.getInput('PERSPECTIVE_API_KEY')
 const GITHUB_TOKEN = core.getInput('GITHUB_TOKEN')
 
 async function run() {
