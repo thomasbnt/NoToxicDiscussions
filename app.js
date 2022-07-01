@@ -17,7 +17,7 @@ async function run() {
         }
 
         const context = github.context.payload
-        console.info(context)
+        //console.info(context)
 
         function CheckTheContentWithPerspectiveAPI(Content) {
             /*
